@@ -66,4 +66,13 @@ console.log(main[2]);
 // The textContent property is used to set or re assign the value.
 heading.textContent = "My Portfolio";
 main[1].textContent = "Let's Connect!";
-main[2].textContent = "My Projects";
+main[2].textContent = "Message me!!";
+
+//Changing the color and background color of the heading and main elements using the style property
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+
+//Changing the color and background color of the heading and main elements using the style property
+main[0].style.color = "purple";
+main[1].style.color = "purple";
+main[2].style.color = "purple";
