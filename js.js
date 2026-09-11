@@ -1,14 +1,16 @@
 console.log("Hello, world.");
 console.log("First Javascript");
 
-
+//const is unchangeable
 const myName = "Philip Alexander Juayong",
     myNumber = 9940369664,
     myAdress = "Hda Sta Teresa, Brgy. Alicante E.B Magalona";
 
-
+//let is changeable
 let age = 20;
 
+
+//console.log is display output in the console
 console.log(`Name: ${myName}`);
 console.log(`Age: ${age}`);
 console.log(`Number: ${myNumber}`);
@@ -45,3 +47,14 @@ console.log("Multiplication:" + mdas(5, 3, "*"));
 console.log("Division:" + mdas(5, 3, "/"));
 console.log("Subtraction:" + mdas(5, 3, "-"));
 console.log("Addition:" + mdas(5, 3, "+"));
+
+
+const heading = document.querySelector("h1");
+
+console.log(heading);
+
+const main = document.querySelectorAll("h2");
+
+
+console.log(main[1]);
+console.log(main[2]);
